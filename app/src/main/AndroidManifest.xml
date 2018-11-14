@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.nationaldrugs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/b3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.Query">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.Login" />
+        <activity android:name=".Activity.Register" />
+        <activity android:name=".Activity.Passport" />
+        <activity android:name=".Activity.Preparation" />
+        <activity android:name=".Activity.Character" />
+        <activity android:name=".Activity.research" />
+        <activity android:name=".Activity.Chemistry" />
+        <activity android:name=".Activity.Right" />
+        <activity android:name=".Activity.reference" />
+        <activity android:name=".Activity.heredity" />
+        <activity android:name=".Activity.image" />
+        <activity android:name=".Activity.share"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">民族药查询系统</string>
+    <string name="AutoComplete">请输入关键字</string>
+    <string name="query">搜索</string>
+</resources>
